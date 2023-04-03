@@ -21,6 +21,7 @@ def make_app(settings: Settings) -> FastAPI:
     if settings.debug:
         app.mount('/static', StaticFiles(directory='build'), name='static')
 
+    # including routers from routers/api.pi and routers/health.py files where there are functions to create content for the responses to GET requests
     app.include_router(api.router, prefix='/api', tags=['api'])
     app.include_router(health.router, prefix='/health', tags=['health'])
 
