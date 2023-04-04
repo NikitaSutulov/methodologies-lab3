@@ -1,6 +1,6 @@
 'use strict';
 const colors = require('colors');
-
+colors.enabled = true;
 console.log(colors.red('Richard'));
 console.log(colors.yellow('Of'));
 console.log(colors.bgYellow('York'));
