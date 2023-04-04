@@ -1,0 +1,19 @@
+{
+  "name": "lab3-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikitaSutulov/methodologies-lab3.git"
+  },
+  "author": "Nikita Sutulov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikitaSutulov/methodologies-lab3/issues"
+  },
+  "homepage": "https://github.com/NikitaSutulov/methodologies-lab3#readme",
+  "devDependencies": {
+    "colors": "^1.4.0"
+  }
+}
